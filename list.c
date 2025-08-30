@@ -104,7 +104,7 @@ void *remove_node(node_t **head, node_t *oldNode)
 
     if (temp == NULL)
     {
-      return;
+      return NULL;
     }
 
     temp->next = oldNode->next;
